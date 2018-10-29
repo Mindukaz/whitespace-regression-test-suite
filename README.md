@@ -1,1 +1,1 @@
-# whitespace-regression-test-suite
+# whitespace-test-suite
