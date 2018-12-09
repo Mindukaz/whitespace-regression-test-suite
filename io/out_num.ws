@@ -1,0 +1,3 @@
+   		  	 	push101
+	
+ 	printNumStackTop

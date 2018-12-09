@@ -1,0 +1,3 @@
+   	  
+push4 
+ duplicate
