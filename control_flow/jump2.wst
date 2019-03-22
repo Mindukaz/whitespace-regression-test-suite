@@ -1,0 +1,8 @@
+push 2
+push 7
+
+mark 1
+push 4
+discard
+jump 1
+end

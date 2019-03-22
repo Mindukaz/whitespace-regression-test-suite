@@ -1,0 +1,15 @@
+push 4
+push 2
+push 7
+
+mark 1
+push 5
+push 22
+duplicate
+return
+
+mark 2
+push 5
+push 1
+mul
+return

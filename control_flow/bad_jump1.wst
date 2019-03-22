@@ -1,0 +1,13 @@
+mark 1
+push 3
+push 4
+
+mark 2
+push 7
+push 2
+
+mark 3
+push 8
+copy 2
+jump 1
+end

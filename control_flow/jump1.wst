@@ -1,0 +1,14 @@
+push 4
+push 6
+push 9
+
+mark 1
+push 3
+duplicate
+jump 2
+push 3
+
+mark 2
+discard
+discard
+end

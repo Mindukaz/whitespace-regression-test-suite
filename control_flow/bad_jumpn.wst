@@ -1,0 +1,11 @@
+push 54
+
+mark 1
+push 7
+sub
+duplicate
+jumpn 
+jump 1
+
+mark 2
+end

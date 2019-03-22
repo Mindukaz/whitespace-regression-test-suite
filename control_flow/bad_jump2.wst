@@ -1,0 +1,11 @@
+mark 1
+push 8
+jump 3
+
+mark 2
+push 3
+swap
+
+mark 3
+discard
+end

@@ -1,0 +1,13 @@
+push 5
+push 3
+end
+
+mark 1
+push 5
+push 2
+return
+
+mark 2
+push 3
+duplicate
+return

@@ -1,6 +1,0 @@
-In atom, the whitespace package stops identifying spaces after
-non whitespace characters. Everything is there tho.
-
-Do not do more complicated tests until all nessesary commands
-have been tested, e.g labels test might do fancy things and have
-push statements in between, so have push tested first.

@@ -1,0 +1,5 @@
+push 10
+push 40
+push 3
+copy
+end

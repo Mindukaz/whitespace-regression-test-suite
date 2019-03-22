@@ -1,0 +1,11 @@
+push 20
+
+mark 1
+push 1
+sub
+duplicate
+jumpz
+jump 1
+
+mark 2
+end

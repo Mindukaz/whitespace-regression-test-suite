@@ -1,0 +1,8 @@
+push 10
+push 5
+push 3
+push 8
+push 2
+push 0
+slide 3
+end

@@ -1,3 +1,0 @@
-   	push1
-	
-		readChar

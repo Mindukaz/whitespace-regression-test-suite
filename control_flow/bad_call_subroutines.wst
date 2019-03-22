@@ -1,0 +1,10 @@
+push 4
+push 3
+call
+duplicate
+end
+
+mark 1
+push 4
+swap
+return
