@@ -1,0 +1,74 @@
+push 4
+push 5
+mul
+call 1
+push 5
+duplicate
+
+mark 3
+push 1
+sub
+jumpz 4
+jump 3
+
+mark 4
+call 2
+push 5
+copy 1
+swap
+push 5
+mul
+sub
+jumpn 5
+jump 4
+
+mark 5
+call 6
+discard
+
+call 7
+call 8
+call 9
+
+end
+
+mark 1
+push 4
+add
+return
+
+mark 2
+push 4
+push 6
+push 0
+push 3
+slide 2
+return
+
+mark 6
+push 11
+push 7
+mod
+return
+
+mark 7
+push 1
+push 5
+store
+push 1
+load
+return
+
+mark 8
+push 2
+read_char
+push 3
+read_num
+return
+
+mark 9
+push 6
+out_num
+push 108
+out_char
+return

@@ -1,0 +1,75 @@
+// gcd
+
+push 0
+push 58
+push 108
+push 97
+push 86
+push 32
+push 116
+push 115
+push 114
+push 105
+push 70
+
+mark 1
+duplicate
+jumpz 2
+out_char
+jump 1
+
+mark 2
+push 0
+read_num
+
+
+push 0
+push 58
+push 108
+push 97
+push 86
+push 32
+push 100
+push 110
+push 111
+push 99
+push 101
+push 83
+
+mark 3
+duplicate
+jumpz 4
+out_char
+jump 3
+
+mark 4
+push 1
+read_num
+
+mark 6
+push 0
+retrieve
+jumpz 5
+
+push 0
+retrieve
+duplicate
+push 1
+retrieve
+swap
+mod
+push 0
+swap
+store
+push 1
+swap
+store
+jump 6
+
+
+mark 5
+push 1
+retrieve
+out_num
+
+end

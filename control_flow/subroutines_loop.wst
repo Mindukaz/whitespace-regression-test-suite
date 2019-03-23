@@ -1,0 +1,15 @@
+push 0
+push 1
+push 3
+push 4
+call 1
+
+end
+
+mark 1
+push 7
+
+mark 2
+jumpz 2
+
+return

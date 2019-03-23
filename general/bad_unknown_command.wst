@@ -1,0 +1,9 @@
+psh 6
+dup 2
+
+mrk 1
+jump 2
+
+mark 2
+
+end

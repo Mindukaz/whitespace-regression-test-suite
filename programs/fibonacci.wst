@@ -1,0 +1,55 @@
+// fibonacci
+push 0
+push 63
+push 121
+push 110
+push 97
+push 109
+push 32
+push 119
+push 111
+push 72
+
+mark 1
+duplicate
+jumpz 2
+out_char
+jump 1
+
+mark 2
+push 0
+read_num
+
+push 1
+push 1
+
+duplicate
+out_num
+
+push 0
+push 0
+retrieve
+push 2
+sub
+store
+
+mark 3
+duplicate
+out_num
+duplicate
+copy 2
+add
+
+push 0
+retrieve
+push 1
+sub
+duplicate
+push 0
+swap
+store
+jumpn 4
+jump 3
+
+mark 4
+end

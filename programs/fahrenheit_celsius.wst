@@ -1,0 +1,55 @@
+// Fahrenheit to celsius
+
+push 0
+push 58
+push 116
+push 105
+push 101
+push 104
+push 110
+push 101
+push 114
+push 104
+push 97
+push 70
+
+mark 1
+duplicate
+jumpz 2
+out_char
+jump 1
+
+mark 2
+push 0
+read_num
+
+push 0
+retrieve
+push 32
+sub
+push 5
+mul
+push 9
+div
+
+push 0
+push 58
+push 115
+push 117
+push 105
+push 115
+push 108
+push 101
+push 67
+
+mark 3
+duplicate
+jumpz 4
+out_char
+jump 3
+
+mark 4
+discard
+out_num
+
+end
