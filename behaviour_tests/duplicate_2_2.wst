@@ -1,0 +1,5 @@
+push 2
+duplicate
+out_num
+out_num
+end

@@ -1,0 +1,15 @@
+
+
+push 3
+out_num
+
+mark 1
+jump 2
+push 7
+out_num
+
+mark 2
+push 8
+out_num
+
+end

@@ -1,0 +1,5 @@
+push 4
+push 3
+mul
+out_num
+end

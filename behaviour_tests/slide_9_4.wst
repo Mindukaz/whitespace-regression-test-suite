@@ -1,0 +1,9 @@
+push 4
+push 2
+push 6
+push 8
+push 9
+slide 3
+out_num
+out_num
+end

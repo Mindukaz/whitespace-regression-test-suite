@@ -1,0 +1,6 @@
+push 5
+push 4
+push 1
+discard
+out_num
+end

@@ -1,0 +1,12 @@
+
+call 1
+
+push 5
+out_num
+
+end
+
+mark 1
+push 4
+out_num
+return

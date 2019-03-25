@@ -1,0 +1,7 @@
+push 0
+read_num
+
+push 0
+retrieve
+out_num
+end

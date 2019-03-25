@@ -1,0 +1,8 @@
+push 0
+push 5
+store
+
+push 0
+retrieve
+out_num
+end

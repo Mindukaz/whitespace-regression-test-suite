@@ -1,0 +1,16 @@
+push 12
+out_num
+
+
+mark 1
+push 0
+jumpz 2
+push 9
+out_num
+
+mark 2
+push 7
+out_num
+
+
+end

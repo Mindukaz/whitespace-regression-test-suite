@@ -2,5 +2,5 @@ push 1
 push 5
 store
 push 1
-load
+retrieve
 end

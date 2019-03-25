@@ -1,0 +1,5 @@
+push 3
+push 62
+swap
+out_num
+end

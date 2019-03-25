@@ -1,0 +1,7 @@
+push 0
+read_char
+
+push 0
+retrieve
+out_char
+end

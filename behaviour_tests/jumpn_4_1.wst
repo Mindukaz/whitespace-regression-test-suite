@@ -1,0 +1,18 @@
+
+
+push 4
+out_num
+
+
+mark 1
+push -1
+jumpn 2
+push 9
+out_num
+
+mark 2
+push 1
+out_num
+
+
+end
